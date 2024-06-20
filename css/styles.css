@@ -1300,7 +1300,7 @@ flex-basis: calc((100% - 72px)/4);
         gap: 40px;
     }
 
-    .nav-link {
+    .logo-style{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -1311,13 +1311,13 @@ flex-basis: calc((100% - 72px)/4);
         display: block;
     }
 
-    .logo {
+    .nav-link-studio {
         position: relative;
         color: #404bbf;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .logo::after {
+    .nav-link-studio::after {
         display: block;
         content: "";
         width: 100%;
@@ -1329,11 +1329,11 @@ flex-basis: calc((100% - 72px)/4);
         border-radius: 2px;
     }
 
-    .nav-link:hover {
+    .logo-style:hover {
         color: #404bbf;
     }
 
-    .nav-link:focus {
+    .logo-style:focus {
         color: #404bbf;
     }
 
@@ -1355,7 +1355,7 @@ flex-basis: calc((100% - 72px)/4);
         transition: color cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .add-address-class {
+    .address-link{
         color: #434455;
         font-size: 12px;
         line-height: 1.16;
@@ -1363,15 +1363,15 @@ flex-basis: calc((100% - 72px)/4);
         transition: color cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .add-address-class:hover {
+    .address-link:hover {
         color: #404bbf;
     }
 
-    .add-address-class:focus {
+    .address-link:focus {
         color: #404bbf;
     }
 
-    .open-menu-btn {
+    .open-button {
         display: none;
     }
 
@@ -1379,7 +1379,7 @@ flex-basis: calc((100% - 72px)/4);
     /* ---------------------SECTION ONE EFFECTIVE SOLUTIONS----------------- */
 
 
-    .section-one {
+    .section {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -1388,30 +1388,30 @@ flex-basis: calc((100% - 72px)/4);
         min-width: 768px;
     }
 
-    .headliner {
+    .title {
         font-size: 56px;
         line-height: 107%;
         max-width: 496px;
     }
 
-    .button-one {
+    .button-link{
         margin-top: 36px;
     }
 
 
     /* ------------------------------FEATURES---------------------- */
 
-    .icon-features {
+    .container-icone {
         display: none;
     }
 
-    .menu-section-two {
+    .li-two{
         flex-direction: row;
         gap: 72px 24px;
         flex-wrap: wrap;
     }
 
-    .item-one {
+    .title-sec{
         text-align: start;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -1421,11 +1421,11 @@ flex-basis: calc((100% - 72px)/4);
         color: #2e2f42;
     }
 
-    .list-section-two {
+    .li-two {
         flex-basis: calc((100% - 24px)/2);
     }
 
-    .text-one {
+    .paragraf {
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -1435,13 +1435,7 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ---------------------------OUR TEAM-------------------------- */
 
-    .item-two {}
-
-    .container-section-three {}
-
-    .container {}
-
-    .headliner-two {
+    .team-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
@@ -1451,13 +1445,13 @@ flex-basis: calc((100% - 72px)/4);
         justify-content: center;
     }
 
-    .menu-section-three {
+    .cl-list{
         flex-wrap: wrap;
         gap: 64px 24px;
         justify-content: center;
     }
 
-    .worker-one {
+    .class {
         border-radius: 0 0 4px 4px;
         padding: 0px 0px 32px 0px;
         width: 264px;
@@ -1480,11 +1474,11 @@ flex-basis: calc((100% - 72px)/4);
 
     /* -----------------------FOOTER--------------------------- */
 
-    .finish-list {
+    .footer {
         padding: 96px 0;
     }
 
-    .container-finish {
+    .container-footer{
         display: flex;
         width: 584px;
         gap: 72px 24px;
@@ -1499,32 +1493,28 @@ flex-basis: calc((100% - 72px)/4);
         width: 264px;
     }
 
-    .footer-menu {
+    .social-list {
         width: 208px;
         height: 80px;
     }
 
-    .finish-list .text-end {
+    .footer .footer-paragraf {
         max-width: 264px;
     }
 
-    .form-footer {
+    .footer-form {
         flex-direction: row;
     }
 
-
-
-    .label-footer {}
-
-    .subscribe-text {
+    .subscribe-paragraff {
         text-align: start;
     }
 
-    .container-finish .footer-media {
+    .container-footer .media {
         align-self: flex-start;
     }
 
-    .finish-list .footer-logo {
+    .footer .footer-logo {
         align-self: flex-start;
     }
 
@@ -1548,27 +1538,27 @@ flex-basis: calc((100% - 72px)/4);
 @media screen and (min-width: 1158px) {
 
     /* ------------------HEADER--------------- */
-    .container {
+    .container-div {
         max-width: 1158px;
     }
 
-    .header-logo {
+    .logo-style {
         margin-right: 76px;
     }
 
-    .menu-address-header {
+    .address-head {
         flex-direction: row;
         gap: 40px;
     }
 
-    .add-address-class {
+    .address-link{
         font-size: 16px;
         line-height: 1.5;
     }
 
     /* ---------------------SECTION ONE EFFECTIVE SOLUTIONS----------------- */
 
-    .section-one {
+    .section {
         max-width: 1440px;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1576,7 +1566,7 @@ flex-basis: calc((100% - 72px)/4);
             url(../images/people-office1-min.jpg);
     }
 
-    .headliner {
+    .title {
         max-width: 496px;
         font-size: 56px;
         line-height: 107%;
@@ -1585,7 +1575,7 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ------------------------------FEATURES---------------------- */
 
-    .icon-features {
+    .container-icon {
         border: 1px solid #8E8F99;
         border-radius: 4px;
         height: 112px;
@@ -1596,12 +1586,12 @@ flex-basis: calc((100% - 72px)/4);
         margin-bottom: 8px;
     }
 
-    .menu-section-two {
+    .list-two {
         flex-direction: row;
         gap: 24px;
     }
 
-    .list-section-two {
+    .li-two {
         flex-basis: calc((100% - 3 * 24px)/4);
     }
 
@@ -1625,16 +1615,16 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ---------------------------OUR TEAM-------------------------- */
 
-    .menu-section-three {
+    .cl-list{
         flex-direction: row;
         gap: 24px;
     }
 
-    .worker-one {
+    .class{
         flex-basis: calc((100% - 3 * 24px)/4);
     }
 
-    .container-section-three {
+    .container {
         width: 1158px;
         padding: 0 15px;
     }
@@ -1656,13 +1646,13 @@ flex-basis: calc((100% - 72px)/4);
 
     /* -------------------------FOOTER----------------------- */
 
-    .finish-list {
+    .footer{
         background-color: #2e2f42;
         padding-top: 100px;
         padding-bottom: 100px;
     }
 
-    .container-finish {
+    .container-footer{
         width: 1440px;
         margin: 0 auto;
         display: flex;
@@ -1691,18 +1681,18 @@ flex-basis: calc((100% - 72px)/4);
         margin-bottom: 16px;
     }
 
-    .span-class-end {
+    .footer-logo-w {
         color: #f4f4fd;
     }
 
-    .text-end {
+    .footer-paragraf{
         line-height: 1.5;
         color: #f4f4fd;
         letter-spacing: 0.02em;
         max-width: 264px;
     }
 
-    .footer-media {
+    .media {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -1711,17 +1701,17 @@ flex-basis: calc((100% - 72px)/4);
         margin-bottom: 16px;
     }
 
-    .footer-menu {
+    .social-list {
         display: flex;
         gap: 16px;
     }
 
-    .footer-item {
+    .item-media {
         width: 40px;
         height: 40px;
     }
 
-    .footer-link {
+    .link-media {
         width: 100%;
         height: 100%;
         background-color: #4d5ae5;
@@ -1732,7 +1722,7 @@ flex-basis: calc((100% - 72px)/4);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .footer-link:hover {
+    .link-media:hover {
         background-color: #31d0aa;
     }
 
@@ -1740,7 +1730,7 @@ flex-basis: calc((100% - 72px)/4);
         background-color: #31d0aa;
     }
 
-    .footer-svg {
+    .media-icon{
         fill: #f4f4fd;
     }
 
@@ -1748,7 +1738,7 @@ flex-basis: calc((100% - 72px)/4);
         margin-left: 80px;
     }
 
-    .subscribe-text {
+    .subscribe-paragraff {
         margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
@@ -1757,14 +1747,12 @@ flex-basis: calc((100% - 72px)/4);
         color: #ffffff;
     }
 
-    .form-footer {
+    .footer-form {
         display: flex;
         gap: 24px;
     }
 
-    .label-footer {}
-
-    .input-footer {
+    .footer-input {
         width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
@@ -1778,11 +1766,11 @@ flex-basis: calc((100% - 72px)/4);
         color: #ffffff;
     }
 
-    .input-footer::placeholder {
+    .footer-input::placeholder {
         color: #ffffff;
     }
 
-    .btn-subscribe {
+    .subscribe-btn {
         min-width: 165px;
         height: 40px;
         display: flex;
