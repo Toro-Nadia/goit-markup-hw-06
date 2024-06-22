@@ -853,6 +853,11 @@ flex-basis: calc((100% - 72px)/4);
         display: none;
     }
 
+    .section-ben{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
     .list-two {
         display: flex;
         flex-direction: column;
@@ -880,7 +885,10 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ---------------------------OUR TEAM-------------------------- */
 
-
+.class-team{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
     
 
     .container{
@@ -903,8 +911,7 @@ flex-basis: calc((100% - 72px)/4);
     }
 
     .img{
-        width: 264px;
-        height: 260px;
+       
     }
 
     .container-name {
@@ -933,7 +940,6 @@ flex-basis: calc((100% - 72px)/4);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-align: center;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -950,8 +956,13 @@ flex-basis: calc((100% - 72px)/4);
         height: 40px;
     }
 
-   
+    
     /* ---------------------OUR PORTFOLIO---------------------------- */
+    
+    .section-four{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 
     .pictures-all {
         margin-bottom: 72px;
@@ -1173,7 +1184,7 @@ flex-basis: calc((100% - 72px)/4);
 
     /* -------------------------MOBILE MENU----------------------------- */
 
-    .mobile-menu-overlay a {
+    .mobile-menu-overlay {
         text-decoration: none;
     }
 
@@ -1189,7 +1200,6 @@ flex-basis: calc((100% - 72px)/4);
         top: 0;
         left: 0;
         z-index: 998;
-
         opacity: 0;
         pointer-events: none;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1205,14 +1215,15 @@ flex-basis: calc((100% - 72px)/4);
         position: absolute;
         background-color: #FFFFFF;
         top: 0;
-        left: 50%;
+        left: 0;
         transform: translateX(-50%);
         padding: 72px 24px 40px 16px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100vh;
+        height: 100%;
+        width: 100%;
 
     }
 
@@ -1404,6 +1415,11 @@ flex-basis: calc((100% - 72px)/4);
     .container-icone {
         display: none;
     }
+    
+    .section-ben{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 
     .li-two{
         flex-direction: row;
@@ -1435,6 +1451,11 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ---------------------------OUR TEAM-------------------------- */
 
+    .class-team{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
     .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -1461,6 +1482,10 @@ flex-basis: calc((100% - 72px)/4);
     }
 
     /* ---------------------------OUR PORTFOLIO---------------------------------------- */
+    .section-four{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 
     .menu-section-four {
         flex-direction: row;
