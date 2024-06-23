@@ -1217,7 +1217,6 @@ flex-basis: calc((100% - 72px)/4);
         background-color: #FFFFFF;
         top: 0;
         left: 0;
-        transform: translateX(-50%);
         padding: 72px 24px 40px 16px;
         margin: 0 auto;
         display: flex;
@@ -1292,6 +1291,9 @@ flex-basis: calc((100% - 72px)/4);
         color: var(--iris);
     }
 
+    .tel{
+        color:#4d5ae5; ;
+    }
 
 }
 
