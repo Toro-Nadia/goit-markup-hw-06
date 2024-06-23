@@ -1192,6 +1192,9 @@ flex-basis: calc((100% - 72px)/4);
     .mobile-overlay .footer-socials {
         gap: 40px;
     }
+    .social-list{
+        color: #4d5ae5;;
+    }
 
     .mobile-overlay {
         position: fixed;
