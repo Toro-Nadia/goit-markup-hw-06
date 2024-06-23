@@ -794,7 +794,8 @@ flex-basis: calc((100% - 72px)/4);
         background-color: #2e2f42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-mob@2x.jpg.jpg);
+            url(../images/people-office-mob@2x.jpg.jpg );
+           
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
@@ -818,6 +819,7 @@ flex-basis: calc((100% - 72px)/4);
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0px 16px;
     }
 
     .button-link {
@@ -910,7 +912,6 @@ flex-basis: calc((100% - 72px)/4);
     .container-name {
         border-radius: 0 0 4px 4px;
         padding: 32px 16px 32px 16px;
-        width: 264px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
 
@@ -935,6 +936,7 @@ flex-basis: calc((100% - 72px)/4);
         color: #434455;
         margin-top: 0;
         margin-bottom: 0;
+        text-align: center;
     }
 
     .ul-social{
@@ -1030,6 +1032,9 @@ flex-basis: calc((100% - 72px)/4);
         flex-direction: column;
         align-items: center;
         gap: 72px 0px;
+    }
+    .footer-logo{
+        text-align: center;
     }
 
     .footer .footer-logo {
@@ -1166,6 +1171,9 @@ flex-basis: calc((100% - 72px)/4);
         color: #FFFFFF;
     }
 
+    .media{
+        text-align: center;
+    }
 
     /* --------------------------MODAL------------------------------- */
 
