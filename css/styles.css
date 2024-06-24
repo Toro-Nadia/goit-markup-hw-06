@@ -798,14 +798,23 @@ flex-basis: calc((100% - 72px)/4);
     }
 
     /* ---------------------SECTION ONE EFFECTIVE SOLUTIONS----------------- */
+@media screen and (max-width: 767px) {
+    .section{
+        background-image:linear-gradient(rgba(46, 47, 66, 0, 7),rgba(46, 47, 66, 0, 7)),
+        url(../images/people-office1-min.jpg);
+    }
+@media (min-devise-pixel-ratio:2),
+( min-resolution:192dpi),
+(min-resolution:2dppx) {
+    .section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-mob@2x.jpg.jpg);
+    }
+}
 
     .section{
         padding: 72px 0px;
         background-color: #2e2f42;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-mob@2x.jpg.jpg );
-           
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
@@ -904,7 +913,7 @@ flex-basis: calc((100% - 72px)/4);
     
 
     .container{
-        padding: 0px 28px;
+    
     }
 
     .cl-list{
@@ -924,7 +933,7 @@ flex-basis: calc((100% - 72px)/4);
 
     .img{
     display: block;
-    min-width:100%;
+    max-width:100%;
     height: auto;
     }
 
@@ -955,7 +964,7 @@ flex-basis: calc((100% - 72px)/4);
         color: #434455;
         margin-top: 0;
         margin-bottom: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .ul-social{
@@ -1317,14 +1326,23 @@ flex-basis: calc((100% - 72px)/4);
         color:#4d5ae5; ;
     }
 
-}
+    .link-media {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 
     /* ------------------HEADER--------------- */
     .container {
-        max-width: 768px;
+        min-width: 768px;
     }
 
     .logo-style {
@@ -1398,6 +1416,7 @@ flex-basis: calc((100% - 72px)/4);
         line-height: 1.16;
         letter-spacing: 0.02em;
         transition: color cubic-bezier(0.4, 0, 0.2, 1);
+        flex-direction: column;
     }
 
     .address-link:hover {
@@ -1419,13 +1438,21 @@ flex-basis: calc((100% - 72px)/4);
     }
 
     /* ---------------------SECTION ONE EFFECTIVE SOLUTIONS----------------- */
+@media screen and (min-width: 768px) {
+    .section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office1-min.jpg);
+    }
 
+    @media (min-devise-pixel-ratio:2),
+    (min-resolution:192dpi),
+    (min-resolution:2dppx) {
+        .section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-tabl@2x.jpg.jpg);
 
     .section {
         padding: 112px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-tabl@2x.jpg.jpg);
         background-repeat: no-repeat;
         min-width: 768px;
     }
@@ -1442,10 +1469,12 @@ flex-basis: calc((100% - 72px)/4);
 
 
     /* ------------------------------FEATURES---------------------- */
-
-    .container-icone {
-        display: none;
-    }
+    @media screen  and(min-width:768px) {
+        .container-icone {
+                display: none;
+            }
+        }
+    
     
     .section-ben{
         padding-top: 96px;
@@ -1476,10 +1505,16 @@ flex-basis: calc((100% - 72px)/4);
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
     }
 
     /* ---------------------------OUR TEAM-------------------------- */
-
+ .menu-section-four{
+    flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 24px)/2);
+ }
     .class-team{
         padding-top: 96px;
         padding-bottom: 96px;
@@ -1497,8 +1532,9 @@ flex-basis: calc((100% - 72px)/4);
 
     .cl-list{
         flex-wrap: wrap;
-        gap: 64px 24px;
+        gap: 72px 24px;
         justify-content: center;
+        flex-direction: row;
     }
 
     .class {
@@ -1508,6 +1544,7 @@ flex-basis: calc((100% - 72px)/4);
         height: 428px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
+        flex-basis: calc((100% - 24px)/2);
     }
 
     .paragraf{
@@ -1566,6 +1603,9 @@ flex-basis: calc((100% - 72px)/4);
     .subscribe-paragraff {
         text-align: start;
     }
+    .footer-logo{
+        text-align: center;
+    }
 
     .container-footer .media {
         align-self: flex-start;
@@ -1596,6 +1636,19 @@ flex-basis: calc((100% - 72px)/4);
 }
 
 /* ================================================= DESKTOP 👇 ========================================= */
+@media  (min-width: 1158px) {
+    .container-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+        }
+}
+
 @media screen and (min-width: 1158px) {
 
     /* ------------------HEADER--------------- */
@@ -1618,13 +1671,24 @@ flex-basis: calc((100% - 72px)/4);
     }
 
     /* ---------------------SECTION ONE EFFECTIVE SOLUTIONS----------------- */
+        @media screen and (min-width: 1158px) {
+            .section {
+                background-image: linear-gradient(rgba(46, 47, 66, 0, 7), rgba(46, 47, 66, 0, 7)),
+                    url(../images/people-office1-min.jpg);
+            }
+    
+            @media (min-devise-pixel-ratio:2),
+            (min-resolution:192dpi),
+            (min-resolution:2dppx) {
+                .section {
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                        url(../images/people-office@2x.jpg.jpg);
+                }
 
     .section {
         max-width: 1440px;
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x.jpg.jpg);
+      
     }
 
     .title {
