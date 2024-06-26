@@ -233,6 +233,9 @@ flex-basis: calc((100% - 72px)/4);
     display: none;
     
 }
+.social-icone {
+    display: none;
+}
 
 .paragraf {
     font-weight: 400;
