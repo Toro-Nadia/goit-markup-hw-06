@@ -874,6 +874,9 @@ flex-basis: calc((100% - 72px)/4);
         background-color: #F4F4FD;
         margin-bottom: 8px;
             }
+        .social-icone{
+            display: none;
+        }
         }
 
     .section-ben{
