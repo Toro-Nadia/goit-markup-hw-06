@@ -1206,6 +1206,7 @@ flex-basis: calc((100% - 72px)/4);
     /* --------------------------MODAL------------------------------- */
 
     .modal {
+        display: none;
         width: 320px;
         height: 640px;
     }
