@@ -230,6 +230,8 @@ flex-basis: calc((100% - 72px)/4);
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    display: none;
+    
 }
 
 .paragraf {
@@ -860,8 +862,8 @@ flex-basis: calc((100% - 72px)/4);
 
 
     /* ------------------------------FEATURES---------------------- */
-
-    .container-icone {
+   
+        .container-icone {
         display: none;
         border: 1px solid #8E8F99;
         border-radius: 4px;
@@ -872,7 +874,7 @@ flex-basis: calc((100% - 72px)/4);
         background-color: #F4F4FD;
         margin-bottom: 8px;
             }
-    }
+       
 
     .section-ben{
         padding-top: 96px;
@@ -964,7 +966,7 @@ flex-basis: calc((100% - 72px)/4);
         color: #434455;
         margin-top: 0;
         margin-bottom: 0;
-        text-align: left;
+        text-align: center;
     }
 
     .ul-social{
@@ -1069,8 +1071,7 @@ flex-basis: calc((100% - 72px)/4);
         display: inline-block;
         margin-bottom: 16px;
         margin-right: 0;
-
-    }
+        }
 
     .footer .footer-logo-w {
         color: #f4f4fd;
@@ -1471,12 +1472,12 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ------------------------------FEATURES---------------------- */
     @media screen  and(min-width:768px) {
-        .container-icone {
-                display: none;
-            }
+        
         }
     
-    
+        .container-icone {
+            display: none;
+        }
     .section-ben{
         padding-top: 96px;
         padding-bottom: 96px;
@@ -1701,16 +1702,19 @@ flex-basis: calc((100% - 72px)/4);
 
     /* ------------------------------FEATURES---------------------- */
 
-    .container-icon {
-        border: 1px solid #8E8F99;
-        border-radius: 4px;
-        height: 112px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #F4F4FD;
-        margin-bottom: 8px;
-    }
+    
+
+        .container-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+    
+        }
 
     .title-sec{
     font-weight: 500;
