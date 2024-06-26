@@ -865,7 +865,7 @@ flex-basis: calc((100% - 72px)/4);
 
 
     /* ------------------------------FEATURES---------------------- */
-   @media screen and(max-width: 767px) {
+   @media screen and (max-width: 767px) {
     .container-icone {
         display: none;
         border: 1px solid #8E8F99;
@@ -878,7 +878,7 @@ flex-basis: calc((100% - 72px)/4);
         margin-bottom: 8px;
             }
         }
-        @media screen and(max-width:767px) {
+        @media screen and (max-width:767px) {
         .social-icone {
                     display: none;
                 }
