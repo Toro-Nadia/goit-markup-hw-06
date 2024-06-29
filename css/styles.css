@@ -867,7 +867,6 @@ flex-basis: calc((100% - 72px)/4);
     /* ------------------------------FEATURES---------------------- */
    @media screen and (max-width: 767px) {
     .container-icone {
-        display: none;
         border: 1px solid #8E8F99;
         border-radius: 4px;
         height: 112px;
@@ -876,6 +875,7 @@ flex-basis: calc((100% - 72px)/4);
         justify-content: center;
         background-color: #F4F4FD;
         margin-bottom: 8px;
+        display: none;
             }
         }
         @media screen and (max-width:767px) {
